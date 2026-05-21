@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.img-container img {
+  width: 16rem;
+  height: 20rem;
+  position: absolute;
+  object-fit: cover;
+  visibility: hidden;
+  will-change: transform;
+  transform-origin: center center;
+  backface-visibility: hidden;
+  contain: paint;
+  transform: translate3d(0, 0, 0) scale(0) rotate(0deg);
+}
+
+
