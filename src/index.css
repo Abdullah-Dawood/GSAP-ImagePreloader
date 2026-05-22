@@ -1,4 +1,50 @@
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-Black.otf") format("otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-BoldExt.otf") format("otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-Heavy.otf") format("otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-Medium.otf") format("otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-Thin.otf") format("otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Helvetica Nueue";
+  src: url("./assets/fonts/HelveticaNeue-UltraLigExt.otf") format("otf");
+  font-weight: 200;
+}
+
+
 @import "tailwindcss";
+
+@theme{
+  --font-display: "Helvetica Nueue", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font-display);
+}
 
 .img-container img {
   width: 16rem;
